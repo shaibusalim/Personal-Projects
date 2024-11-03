@@ -1,0 +1,70 @@
+
+.food-list-container {
+    max-height: 80vh; 
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 2px solid red;
+    overflow: auto;
+  }
+  .food-list-container .food-list{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: #1a1b22;
+  }
+  
+  .food-card {
+    background-color:  #1f6e77;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+    width: 400px;
+    color: white;
+  }
+  .food-card:hover{
+    background-color: #15bed1 ;
+    transition: 0.6s linear;
+  }
+  .food-card-container{
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   max-width: 400px;
+ 
+   
+  }
+  .food-card-container p{
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 10px;
+    background-color: #222329;
+  }
+ 
+  
+  .food-card h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .food-card button {
+    background-color: #2a72c0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .food-card button:hover {
+    background-color: #0056b3;
+  }
+  

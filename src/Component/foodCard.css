@@ -1,0 +1,4 @@
+.food-card-container{
+    display: flex;
+    border: 2px solid blue;
+  }

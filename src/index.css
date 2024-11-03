@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .app {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .food-list, .food-diary {
+    width: 45%;
+  }
+  
+  .food-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
